@@ -4,7 +4,7 @@
   "description": "This is Express Project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "nodemon server.js",
     "dev": "nodemon server.js"
   },
@@ -27,11 +27,5 @@
     "mongoose": "^7.5.0",
     "progress": "^2.0.3",
     "prompt-sync": "^4.2.0"
-  },
-  "scripts": {
-  "test": "jest",
-  "start": "nodemon server.js",
-  "dev": "nodemon server.js"
-}
-
+  }
 }
